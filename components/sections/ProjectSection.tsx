@@ -6,7 +6,7 @@ import useScrollActive from "@/hooks/useScrollActive"
 import Ecommerce from "@/public/assets/projects/ecommerce.png"
 import MantineBoards from "@/public/assets/projects/mantine-boards.png"
 import MiroClone from "@/public/assets/projects/miro-clone.png"
-import Music from "@/public/assets/projects/music-app.png"
+import MotionScape from "@/public/assets/projects/motion-scape.png"
 import PortfolioV2 from "@/public/assets/projects/portfolio-v2.png"
 import VSCode from "@/public/assets/projects/vscode.png"
 import { useSectionStore } from "@/store/section"
@@ -122,8 +122,8 @@ const projects: Project[] = [
       "My portfolio website in vscode version developed with React and TypeScript.",
     techStacks: ["ReactJS", "TypeScript"],
     image: VSCode,
-    githubURL: "https://github.com/DevShinnThant/vscode-portfolio",
-    githubApi: "https://api.github.com/repos/DevShinnThant/vscode-portfolio",
+    githubURL: "https://github.com/devshinthant/vscode-portfolio",
+    githubApi: "https://api.github.com/repos/devshinthant/vscode-portfolio",
   },
   {
     id: 5,
@@ -132,8 +132,8 @@ const projects: Project[] = [
       "A refined and enhanced showcase of my work, designed to highlight my skills and projects with a sleek and modern interface.",
     techStacks: ["NextJS", "ShadnUI", "GSAP"],
     image: PortfolioV2,
-    githubURL: "https://github.com/DevShinnThant/shinthant.dev",
-    githubApi: "https://api.github.com/repos/DevShinnThant/shinthant.dev",
+    githubURL: "https://github.com/devshinthant/shinthant.dev",
+    githubApi: "https://api.github.com/repos/devshinthant/shinthant.dev",
   },
   {
     id: 4,
@@ -142,8 +142,29 @@ const projects: Project[] = [
       "Responsive Dashboards, perfect for admin dashboards, analytics platforms, or any project that requires a clean, modern interface.",
     techStacks: ["RemixJS", "MantineUI"],
     image: MantineBoards,
-    githubURL: "https://github.com/DevShinnThant/mantine-boards",
-    githubApi: "https://api.github.com/repos/DevShinnThant/mantine-boards",
+    githubURL: "https://github.com/devshinthant/mantine-boards",
+    githubApi: "https://api.github.com/repos/devshinthant/mantine-boards",
+  },
+  {
+    id: 7,
+    title: "Motion Scape",
+    description:
+      "Motion Scape is a visually dynamic website dedicated to the art of animations and transitions in web design.",
+    techStacks: ["NextJS", "GSAP", "TypeScript"],
+    image: MotionScape,
+    githubURL: "https://github.com/devshinthant/motion-scape",
+    githubApi: "https://api.github.com/repos/devshinthant/motion-scape",
+  },
+
+  {
+    id: 6,
+    title: "Miro Clone",
+    description:
+      "Enjoy a wide range of brushes, colors, and effects, along with layers, undo/redo functionality, and easy sharing options.",
+    techStacks: ["NextJS", "ShadnUI", "Convex", "Clerk", "Liveblocks"],
+    image: MiroClone,
+    githubURL: "https://github.com/devshinthant/realtime-miro-clone",
+    githubApi: "https://api.github.com/repos/devshinthant/realtime-miro-clone",
   },
   {
     id: 2,
@@ -152,27 +173,7 @@ const projects: Project[] = [
       "A cutting-edge e-commerce web application designed to provide a seamless shopping experience.",
     techStacks: ["NextJS", "Strapi", "Radix UI"],
     image: Ecommerce,
-    githubURL: "https://github.com/DevShinnThant/exclusive-ecommerce",
-    githubApi: "https://api.github.com/repos/DevShinnThant/exclusive-ecommerce",
-  },
-  {
-    id: 3,
-    title: "Music Web App",
-    description:
-      "An innovative music web application that brings your favorite tunes to your fingertips.",
-    techStacks: ["NextJS", "Strapi", "Radix UI"],
-    image: Music,
-    githubURL: "https://github.com/DevShinnThant/music-player",
-    githubApi: "https://api.github.com/repos/DevShinnThant/music-player",
-  },
-  {
-    id: 6,
-    title: "Miro Clone",
-    description:
-      "Enjoy a wide range of brushes, colors, and effects, along with layers, undo/redo functionality, and easy sharing options.",
-    techStacks: ["NextJS", "ShadnUI", "Convex", "Clerk", "Liveblocks"],
-    image: MiroClone,
-    githubURL: "https://github.com/DevShinnThant/realtime-miro-clone",
-    githubApi: "https://api.github.com/repos/DevShinnThant/realtime-miro-clone",
+    githubURL: "https://github.com/devshinthant/exclusive-ecommerce",
+    githubApi: "https://api.github.com/repos/devshinthant/exclusive-ecommerce",
   },
 ]
