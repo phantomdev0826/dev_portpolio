@@ -33,7 +33,7 @@ My portfolio website developed with Next.JS(SSG) and TypeScript. Tailwind CSS an
 Clone the project
 
 ```bash
-git clone https://github.com/ShinnTNT/shinthant.dev.git
+git clone https://github.com/devshinthant/shinthant.dev.git
 ```
 
 Go to the project directory

@@ -90,7 +90,7 @@ export default function ProjectSection() {
         <div className="font-medium">
           Explore more projects in{" "}
           <Link
-            href="https://github.com/ShinnTNT"
+            href="https://github.com/devshinthant"
             target="_blank"
             aria-label="Expore more in my github profile"
             rel="noopener noreferrer"

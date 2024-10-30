@@ -114,7 +114,7 @@ export default function ContactSection() {
             </Link>
 
             <Link
-              href="https://github.com/ShinnTNT"
+              href="https://github.com/devshinthant"
               aria-label="Contact me on Github"
               target="_blank"
               rel="noopener noreferrer"
