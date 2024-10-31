@@ -69,7 +69,7 @@ export default function ResumeBtn() {
   return (
     <a
       role="button"
-      href="https://shin-thant-portfolio.tiiny.site/"
+      href="https://crimson-wendeline-56.tiiny.site/"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Resume"
