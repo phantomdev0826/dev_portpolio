@@ -3,11 +3,11 @@
 import { useEffect, useRef } from "react"
 import useOnScreen from "@/hooks/useOnScreen"
 import useScrollActive from "@/hooks/useScrollActive"
-import Ecommerce from "@/public/assets/projects/ecommerce.png"
 import MantineBoards from "@/public/assets/projects/mantine-boards.png"
 import MiroClone from "@/public/assets/projects/miro-clone.png"
 import MotionScape from "@/public/assets/projects/motion-scape.png"
 import PortfolioV2 from "@/public/assets/projects/portfolio-v2.png"
+import ValentinCarousel from "@/public/assets/projects/valentin-carousel.png"
 import VSCode from "@/public/assets/projects/vscode.png"
 import { useSectionStore } from "@/store/section"
 import { gsap } from "gsap"
@@ -168,12 +168,12 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Exclusive Ecommerce",
+    title: "Valentin Carousel",
     description:
-      "A cutting-edge e-commerce web application designed to provide a seamless shopping experience.",
-    techStacks: ["NextJS", "Strapi", "Radix UI"],
-    image: Ecommerce,
-    githubURL: "https://github.com/devshinthant/exclusive-ecommerce",
-    githubApi: "https://api.github.com/repos/devshinthant/exclusive-ecommerce",
+      "An animated carousel inspired by Valentin Awward Winning Website",
+    techStacks: ["ReactJs", "GSAP"],
+    image: ValentinCarousel,
+    githubURL: "https://github.com/devshinthant/valentin-carousel",
+    githubApi: "https://api.github.com/repos/devshinthant/valentin-carousel",
   },
 ]

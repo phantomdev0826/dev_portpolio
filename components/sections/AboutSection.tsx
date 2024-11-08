@@ -6,7 +6,7 @@ import Circle from "@/public/assets/about/circle.svg"
 import Signs from "@/public/assets/about/signs.svg"
 import Star from "@/public/assets/about/star.svg"
 import Triangle from "@/public/assets/about/triangle.svg"
-import ShinThantImage from "@/public/me-final.jpg"
+import ShinThantImage from "@/public/me-5.jpg"
 import { useSectionStore } from "@/store/section"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
@@ -213,7 +213,7 @@ export default function AboutSection() {
             </div>
           </div>
           <div className="w-full h-full flex justify-center items-center image-animation ">
-            <div className="relative w-[200px] h-[200px] lg:w-[300px] lg:h-[320px]">
+            <div className="relative w-[180px] h-[170px] lg:w-[300px] lg:h-[290px]">
               <div className="w-full h-full bg-accentColor shadow-md rounded-sm absolute -right-3 -bottom-3" />
               <Image
                 className="absolute z-10 object-contain  w-full h-full shadow-sm rounded-sm"
