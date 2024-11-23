@@ -7,6 +7,7 @@ import MantineBoards from "@/public/assets/projects/mantine-boards.png"
 import MiroClone from "@/public/assets/projects/miro-clone.png"
 import MotionScape from "@/public/assets/projects/motion-scape.png"
 import PortfolioV2 from "@/public/assets/projects/portfolio-v2.png"
+import TheRealHotels from "@/public/assets/projects/therealhotels.png"
 import ValentinCarousel from "@/public/assets/projects/valentin-carousel.png"
 import VSCode from "@/public/assets/projects/vscode.png"
 import { useSectionStore } from "@/store/section"
@@ -125,8 +126,9 @@ const projects: Project[] = [
     githubURL: "https://github.com/devshinthant/vscode-portfolio",
     githubApi: "https://api.github.com/repos/devshinthant/vscode-portfolio",
   },
+
   {
-    id: 5,
+    id: 2,
     title: "Portfolio V2",
     description:
       "A refined and enhanced showcase of my work, designed to highlight my skills and projects with a sleek and modern interface.",
@@ -136,7 +138,7 @@ const projects: Project[] = [
     githubApi: "https://api.github.com/repos/devshinthant/shinthant.dev",
   },
   {
-    id: 4,
+    id: 3,
     title: "Mantine Boards",
     description:
       "Responsive Dashboards, perfect for admin dashboards, analytics platforms, or any project that requires a clean, modern interface.",
@@ -146,7 +148,7 @@ const projects: Project[] = [
     githubApi: "https://api.github.com/repos/devshinthant/mantine-boards",
   },
   {
-    id: 7,
+    id: 4,
     title: "Motion Scape",
     description:
       "Motion Scape is a visually dynamic website dedicated to the art of animations and transitions in web design.",
@@ -155,19 +157,8 @@ const projects: Project[] = [
     githubURL: "https://github.com/devshinthant/motion-scape",
     githubApi: "https://api.github.com/repos/devshinthant/motion-scape",
   },
-
   {
-    id: 6,
-    title: "Miro Clone",
-    description:
-      "Enjoy a wide range of brushes, colors, and effects, along with layers, undo/redo functionality, and easy sharing options.",
-    techStacks: ["NextJS", "ShadnUI", "Convex", "Clerk", "Liveblocks"],
-    image: MiroClone,
-    githubURL: "https://github.com/devshinthant/realtime-miro-clone",
-    githubApi: "https://api.github.com/repos/devshinthant/realtime-miro-clone",
-  },
-  {
-    id: 2,
+    id: 5,
     title: "Valentin Carousel",
     description:
       "An animated carousel inspired by Valentin Awward Winning Website",
@@ -175,5 +166,25 @@ const projects: Project[] = [
     image: ValentinCarousel,
     githubURL: "https://github.com/devshinthant/valentin-carousel",
     githubApi: "https://api.github.com/repos/devshinthant/valentin-carousel",
+  },
+  {
+    id: 6,
+    title: "TheRealHotels",
+    description:
+      "A Landing Website Inspired by awwarded website,therealhotels.com",
+    techStacks: ["ReactJs", "GSAP"],
+    image: TheRealHotels,
+    githubURL: "https://github.com/devshinthant/therealhotels",
+    githubApi: "https://api.github.com/repos/devshinthant/therealhotels",
+  },
+  {
+    id: 7,
+    title: "Miro Clone",
+    description:
+      "Enjoy a wide range of brushes, colors, and effects, along with layers, undo/redo functionality, and easy sharing options.",
+    techStacks: ["NextJS", "ShadnUI", "Convex", "Clerk", "Liveblocks"],
+    image: MiroClone,
+    githubURL: "https://github.com/devshinthant/realtime-miro-clone",
+    githubApi: "https://api.github.com/repos/devshinthant/realtime-miro-clone",
   },
 ]
