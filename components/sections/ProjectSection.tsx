@@ -113,6 +113,7 @@ export interface Project {
   image: StaticImageData
   githubURL: string
   githubApi: string
+  liveURL: string
 }
 
 const projects: Project[] = [
@@ -124,6 +125,7 @@ const projects: Project[] = [
     techStacks: ["ReactJS", "TypeScript"],
     image: VSCode,
     githubURL: "https://github.com/devshinthant/vscode-portfolio",
+    liveURL: "https://devshinthant-v1.vercel.app",
     githubApi: "https://api.github.com/repos/devshinthant/vscode-portfolio",
   },
 
@@ -135,6 +137,7 @@ const projects: Project[] = [
     techStacks: ["NextJS", "ShadnUI", "GSAP"],
     image: PortfolioV2,
     githubURL: "https://github.com/devshinthant/shinthant.dev",
+    liveURL: "https://devshinthant.vercel.app",
     githubApi: "https://api.github.com/repos/devshinthant/shinthant.dev",
   },
   {
@@ -145,6 +148,7 @@ const projects: Project[] = [
     techStacks: ["RemixJS", "MantineUI"],
     image: MantineBoards,
     githubURL: "https://github.com/devshinthant/mantine-boards",
+    liveURL: "https://mantine-boards.vercel.app",
     githubApi: "https://api.github.com/repos/devshinthant/mantine-boards",
   },
   {
@@ -155,6 +159,7 @@ const projects: Project[] = [
     techStacks: ["NextJS", "GSAP", "TypeScript"],
     image: MotionScape,
     githubURL: "https://github.com/devshinthant/motion-scape",
+    liveURL: "https://motion-gsap.vercel.app",
     githubApi: "https://api.github.com/repos/devshinthant/motion-scape",
   },
   {
@@ -165,6 +170,7 @@ const projects: Project[] = [
     techStacks: ["ReactJs", "GSAP"],
     image: ValentinCarousel,
     githubURL: "https://github.com/devshinthant/valentin-carousel",
+    liveURL: "https://valentin-carousel.vercel.app",
     githubApi: "https://api.github.com/repos/devshinthant/valentin-carousel",
   },
   {
@@ -175,6 +181,7 @@ const projects: Project[] = [
     techStacks: ["ReactJs", "GSAP"],
     image: TheRealHotels,
     githubURL: "https://github.com/devshinthant/therealhotels",
+    liveURL: "https://therealhotels.vercel.app",
     githubApi: "https://api.github.com/repos/devshinthant/therealhotels",
   },
   {
@@ -185,6 +192,7 @@ const projects: Project[] = [
     techStacks: ["NextJS", "ShadnUI", "Convex", "Clerk", "Liveblocks"],
     image: MiroClone,
     githubURL: "https://github.com/devshinthant/realtime-miro-clone",
+    liveURL: "https://realtime-miro-clone.vercel.app",
     githubApi: "https://api.github.com/repos/devshinthant/realtime-miro-clone",
   },
 ]

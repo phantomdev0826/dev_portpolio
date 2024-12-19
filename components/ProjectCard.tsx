@@ -114,9 +114,9 @@ export default function ProjectCard({ item }: Props) {
             })}
           </div>
 
-          {item.githubURL && (
+          {item.liveURL && (
             <a
-              href={item.githubURL}
+              href={item.liveURL}
               title={`See '${item.title}' on Github`}
               target="_blank"
               rel="noreferrer"
